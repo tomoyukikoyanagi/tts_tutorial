@@ -16,7 +16,7 @@
 		34B3BE9726F1B80B00029621 /* tts_tutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3BE9626F1B80B00029621 /* tts_tutorialTests.swift */; };
 		34B3BEA226F1B80B00029621 /* tts_tutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3BEA126F1B80B00029621 /* tts_tutorialUITests.swift */; };
 		34B3BEB026F1B82100029621 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3BEAF26F1B82100029621 /* Model.swift */; };
-		34B3BEB226F1B82800029621 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3BEB126F1B82800029621 /* Presenter.swift */; };
+		34B3BEB226F1B82800029621 /* TTSPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3BEB126F1B82800029621 /* TTSPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		34B3BEA126F1B80B00029621 /* tts_tutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tts_tutorialUITests.swift; sourceTree = "<group>"; };
 		34B3BEA326F1B80B00029621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34B3BEAF26F1B82100029621 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		34B3BEB126F1B82800029621 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		34B3BEB126F1B82800029621 /* TTSPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				34B3BE8326F1B80900029621 /* ViewController.swift */,
 				34B3BEAF26F1B82100029621 /* Model.swift */,
 				34B3BE8526F1B80900029621 /* Main.storyboard */,
-				34B3BEB126F1B82800029621 /* Presenter.swift */,
+				34B3BEB126F1B82800029621 /* TTSPresenter.swift */,
 				34B3BE8826F1B80B00029621 /* Assets.xcassets */,
 				34B3BE8A26F1B80B00029621 /* LaunchScreen.storyboard */,
 				34B3BE8D26F1B80B00029621 /* Info.plist */,
@@ -268,7 +268,7 @@
 				34B3BE8026F1B80900029621 /* AppDelegate.swift in Sources */,
 				34B3BE8226F1B80900029621 /* SceneDelegate.swift in Sources */,
 				34B3BEB026F1B82100029621 /* Model.swift in Sources */,
-				34B3BEB226F1B82800029621 /* Presenter.swift in Sources */,
+				34B3BEB226F1B82800029621 /* TTSPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
